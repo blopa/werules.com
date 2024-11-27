@@ -31,11 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: "21"
           cache: npm
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
@@ -44,6 +46,7 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -54,10 +57,16 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}-
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build with Next.js
         run: npm run build
+
+      - name: Create CNAME file
+        run: echo "werules.com" > ./out/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
