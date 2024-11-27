@@ -1,13 +1,13 @@
 {
-  "name": "musclog-website",
+  "name": "musclog",
   "version": "0.1.2",
   "private": true,
   "scripts": {
     "typecheck": "tsc --noEmit",
     "bump": "ncu -u -t minor",
     "dev": "next dev",
-    "dev-path": "NEXT_PUBLIC_BASE_PATH=musclog-website next dev",
-    "build": "NEXT_PUBLIC_BASE_PATH=musclog-website next build",
+    "dev-path": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "serve": "serve out"
