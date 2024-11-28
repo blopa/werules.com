@@ -4,7 +4,7 @@ import TranslationProvider from '@/components/TranslationProvider';
 function Home() {
     return (
         <div>
-            Hello world!
+            <a href="https://werules.com/musclog/privacy-policy">Privacy Policy for Musclog app</a>
         </div>
     );
 }
