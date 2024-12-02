@@ -71,7 +71,7 @@ function Home() {
                             alt="Musclog App"
                             className="rounded-xl object-cover"
                             height={500}
-                            src={`${PATH}/placeholder.png`}
+                            src={`${PATH}/musclog-logo.png`}
                             width={700}
                         />
                     </div>
