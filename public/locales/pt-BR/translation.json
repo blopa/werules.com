@@ -260,5 +260,8 @@
   "welcome_werules": "Bem-vindo à Werules",
   "access_website": "Acessar site",
   "we_are_devs": "Somos um grupo de amigos apaixonados por criar aplicativos gratuitos e de código aberto.",
-  "explore_our_apps": "Explore nossos projetos e junte-se a nós para tornar a tecnologia acessível a todos."
+  "explore_our_apps": "Explore nossos projetos e junte-se a nós para tornar a tecnologia acessível a todos.",
+  "sentry_data": "Dados de falhas e desempenho do aplicativo",
+  "sentry_data_text": "Dados de falhas e desempenho do aplicativo coletados através do Sentry.",
+  "sentry_data_description": "Utilizamos o Sentry para coletar relatórios de falhas e métricas de desempenho do aplicativo para melhorar a estabilidade e a experiência do usuário. Esses dados podem incluir identificadores do dispositivo, versão do aplicativo, detalhes do sistema operacional e logs de erro. Nenhum dado pessoal é compartilhado com terceiros."
 }

@@ -260,5 +260,8 @@
   "welcome_werules": "Welcome to Werules",
   "access_website": "Access Website",
   "we_are_devs": "We're a team of friends passionate about creating free and open-source apps.",
-  "explore_our_apps": "Explore our projects and join us in making technology accessible to everyone."
+  "explore_our_apps": "Explore our projects and join us in making technology accessible to everyone.",
+  "sentry_data": "Crash and App Performance Data",
+  "sentry_data_text": "Crash and app performance data collected through Sentry.",
+  "sentry_data_description": "We use Sentry to collect crash reports and app performance metrics to improve app stability and user experience. This data may include device identifiers, app version, operating system details, and error logs. No personal data is shared with third parties."
 }
