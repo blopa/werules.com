@@ -21,8 +21,8 @@
     "i18next": "23.16.8",
     "i18next-browser-languagedetector": "8.0.0",
     "i18next-http-backend": "2.7.1",
-    "lucide-react": "0.462.0",
-    "next": "14.2.18",
+    "lucide-react": "0.465.0",
+    "next": "14.2.19",
     "next-i18next": "15.4.0",
     "react": "18",
     "react-dom": "18",
@@ -31,7 +31,7 @@
     "tailwindcss-animate": "1.0.7"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "14.2.18",
+    "@next/eslint-plugin-next": "14.2.19",
     "@types/node": "20",
     "@types/react": "18",
     "@types/react-dom": "18",
@@ -39,9 +39,9 @@
     "@typescript-eslint/parser": "7.18.0",
     "eslint": "8.57.0",
     "eslint-config-expo": "7.1.2",
-    "eslint-config-next": "14.2.18",
+    "eslint-config-next": "14.2.19",
     "eslint-import-resolver-alias": "1.1.2",
-    "eslint-import-resolver-typescript": "3.6.3",
+    "eslint-import-resolver-typescript": "3.7.0",
     "eslint-plugin-perfectionist": "2.11.0",
     "eslint-plugin-react": "7.37.2",
     "eslint-plugin-react-hooks": "4.6.2",
@@ -51,7 +51,7 @@
     "npm-check-updates": "16.14.20",
     "postcss": "8",
     "serve": "14.2.4",
-    "tailwindcss": "3.4.15",
+    "tailwindcss": "3.4.16",
     "typescript": "5"
   }
 }

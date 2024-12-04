@@ -14,7 +14,7 @@ function PrivacyPolicy() {
                 <h1 className="text-4xl font-bold mb-4">{t('privacy_policy')}</h1>
                 <p className="text-sm text-gray-600 mb-4">{t('last_updated')}</p>
                 <p className="mb-4">{t('introduction')}</p>
-                <p className="mb-4" dangerouslySetInnerHTML={{__html: t('introduction_link')}}></p>
+                <p className="mb-4" dangerouslySetInnerHTML={{ __html: t('introduction_link') }}></p>
 
                 <h2 className="text-2xl font-bold mt-8 mb-4">{t('interpretation_definitions')}</h2>
                 <h3 className="text-xl font-bold mt-4 mb-2">{t('interpretation')}</h3>
@@ -33,6 +33,7 @@ function PrivacyPolicy() {
                     <li className="mb-2"><strong>{t('service')}</strong> {t('service_text')}</li>
                     <li className="mb-2"><strong>{t('service_provider')}</strong> {t('service_provider_text')}</li>
                     <li className="mb-2"><strong>{t('usage_data')}</strong> {t('usage_data_text')}</li>
+                    <li className="mb-2"><strong>{t('device_identifiers')}</strong> {t('device_identifiers_text')}</li>
                     <li className="mb-2"><strong>{t('you')}</strong> {t('you_text')}</li>
                 </ul>
 
@@ -43,9 +44,13 @@ function PrivacyPolicy() {
                 <ul className="list-disc ml-6 mb-4">
                     <li className="mb-2">{t('first_name_last_name')}</li>
                     <li className="mb-2">{t('usage_data')}</li>
+                    <li className="mb-2">{t('device_identifiers')}</li>
                 </ul>
 
-                <h2 className="text-2xl font-bold mt-8 mb-4">{t('google_oauth_data')}</h2>
+                <h4 className="text-lg font-bold mt-4 mb-2">{t('device_identifiers')}</h4>
+                <p className="mb-4">{t('device_identifiers_description')}</p>
+
+                <h4 className="text-lg font-bold mt-4 mb-2">{t('google_oauth_data')}</h4>
                 <p className="mb-4">{t('google_oauth_description')}</p>
                 <ul className="list-disc ml-6 mb-4">
                     <li className="mb-2">{t('google_oauth_name')}</li>
@@ -179,7 +184,7 @@ export default function Page() {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-expect-error
         <TranslationProvider>
-            <PrivacyPolicy/>
+            <PrivacyPolicy />
         </TranslationProvider>
     );
 };

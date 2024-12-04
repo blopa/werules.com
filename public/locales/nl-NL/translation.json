@@ -244,5 +244,17 @@
   "google_oauth_ai_access": "Om toegang te krijgen tot Google Generative AI-mogelijkheden om app-functies te verbeteren.",
   "google_oauth_offline": "Alle gegevens worden offline opgeslagen op je apparaat en niet geüpload naar onze servers.",
   "google_oauth_not_shared": "We delen je gegevens niet met derden voor marketing- of andere doeleinden.",
-  "google_oauth_optional": "Google OAuth is optioneel en kan worden uitgeschakeld in de applicatie-instellingen."
+  "google_oauth_optional": "Het gebruik van OAuth is optioneel en beperkt tot het verbeteren van functies voor gebruikers die ervoor kiezen het te gebruiken.",
+  "device_identifiers": "Apparaat-ID's",
+  "device_identifiers_text": "Apparaat-ID's kunnen Android-ID, advertentie-ID, MAC-adres of andere unieke apparaatidentificatoren omvatten.",
+  "device_identifiers_description": "Deze identificatoren worden verzameld om de functionaliteit van de app en juiste analyse te waarborgen. Deze gegevens worden veilig verzonden en niet gebruikt voor marketingdoeleinden.",
+  "delete_account_title": "Uw account verwijderen",
+  "delete_account_message": "Wilt u dat we uw account verwijderen? Vul het onderstaande formulier in en we nemen contact met u op.",
+  "delete_account_name_label": "Naam",
+  "delete_account_name_placeholder": "Uw Naam",
+  "delete_account_email_label": "E-mail",
+  "delete_account_email_placeholder": "Uw E-mailadres",
+  "delete_account_reason_label": "Reden voor verwijdering (optioneel)",
+  "delete_account_reason_placeholder": "Waarom wilt u uw account verwijderen?",
+  "delete_account_submit": "Verzoek Verzenden"
 }

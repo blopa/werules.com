@@ -244,5 +244,17 @@
   "google_oauth_ai_access": "Acceder a las capacidades de Google Generative AI para mejorar las funciones de la aplicación.",
   "google_oauth_offline": "Todos los datos se almacenan sin conexión en tu dispositivo y no se suben a nuestros servidores.",
   "google_oauth_not_shared": "No compartimos tus datos con terceros para marketing u otros propósitos.",
-  "google_oauth_optional": "Google OAuth es opcional y se puede desactivar en la configuración de la aplicación."
+  "google_oauth_optional": "El uso de OAuth es opcional y se limita a mejorar las funciones para los usuarios que elijan usarlo.",
+  "device_identifiers": "Identificadores del dispositivo",
+  "device_identifiers_text": "Los identificadores del dispositivo pueden incluir ID de Android, ID de publicidad, dirección MAC u otros identificadores únicos del dispositivo.",
+  "device_identifiers_description": "Estos identificadores se recopilan para garantizar la funcionalidad de la aplicación y una analítica adecuada. Estos datos se transmiten de forma segura y no se utilizan con fines de marketing.",
+  "delete_account_title": "Eliminar tu cuenta",
+  "delete_account_message": "¿Quieres que eliminemos tu cuenta? Por favor, completa el formulario a continuación y nos pondremos en contacto contigo.",
+  "delete_account_name_label": "Nombre",
+  "delete_account_name_placeholder": "Tu Nombre",
+  "delete_account_email_label": "Correo Electrónico",
+  "delete_account_email_placeholder": "Tu Correo Electrónico",
+  "delete_account_reason_label": "Razón para eliminar (opcional)",
+  "delete_account_reason_placeholder": "¿Por qué deseas eliminar tu cuenta?",
+  "delete_account_submit": "Enviar Solicitud"
 }
