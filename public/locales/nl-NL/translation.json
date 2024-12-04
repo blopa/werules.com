@@ -256,5 +256,9 @@
   "delete_account_email_placeholder": "Uw E-mailadres",
   "delete_account_reason_label": "Reden voor verwijdering (optioneel)",
   "delete_account_reason_placeholder": "Waarom wilt u uw account verwijderen?",
-  "delete_account_submit": "Verzoek Verzenden"
+  "delete_account_submit": "Verzoek Verzenden",
+  "welcome_werules": "Welkom bij Werules",
+  "access_website": "Website openen",
+  "we_are_devs": "Wij zijn een team van vrienden die gepassioneerd zijn over het maken van gratis en open-source apps.",
+  "explore_our_apps": "Ontdek onze projecten en doe met ons mee om technologie toegankelijk te maken voor iedereen."
 }

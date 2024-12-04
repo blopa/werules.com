@@ -72,8 +72,8 @@ function DeleteAccount() {
                         />
                     </div>
                     <button
-                        type="submit"
                         className="bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold py-2 px-6 rounded shadow-md hover:shadow-lg hover:from-blue-600 hover:to-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-transform transform hover:-translate-y-0.5"
+                        type="submit"
                     >
                         {t('delete_account_submit')}
                     </button>

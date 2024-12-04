@@ -256,5 +256,9 @@
   "delete_account_email_placeholder": "Tu Correo Electrónico",
   "delete_account_reason_label": "Razón para eliminar (opcional)",
   "delete_account_reason_placeholder": "¿Por qué deseas eliminar tu cuenta?",
-  "delete_account_submit": "Enviar Solicitud"
+  "delete_account_submit": "Enviar Solicitud",
+  "welcome_werules": "Bienvenido a Werules",
+  "access_website": "Acceder al sitio web",
+  "we_are_devs": "Somos un equipo de amigos apasionados por crear aplicaciones gratuitas y de código abierto.",
+  "explore_our_apps": "Explora nuestros proyectos y únete a nosotros para hacer que la tecnología sea accesible para todos."
 }
